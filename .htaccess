@@ -4,8 +4,8 @@ RewriteEngine On
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
 
-RewriteRule conquista$ ./conquista.html
-RewriteRule duaco$ ./duaco.html
-RewriteRule jaguari$ ./jaguari.html
+RewriteRule conquista$ ./public_html/conquista.html
+RewriteRule duaco$ ./public_html/duaco.html
+RewriteRule jaguari$ ./public_html/jaguari.html
 
 
